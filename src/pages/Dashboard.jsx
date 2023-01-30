@@ -39,7 +39,7 @@ function Dashboard() {
             <WelcomeBanner />
 
             {/* Dashboard actions */}
-            <div className="sm:flex sm:justify-between sm:items-center mb-8">
+            <div className="flex justify-between items-center mb-8">
 
               {/* Left: Avatars */}
               <DashboardAvatars />
