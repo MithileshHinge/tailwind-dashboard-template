@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LineChart from '../../charts/LineChart01';
+import BadgePill from '../BadgePill';
 import EditMenu from '../EditMenu';
 
 function DashboardCard01({icon, title, value, badgeText, badgeClass, chartData}) {
@@ -27,7 +28,7 @@ function DashboardCard01({icon, title, value, badgeText, badgeClass, chartData})
         <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Sales</div>
         <div className="flex items-start">
           <div className="text-3xl font-bold text-slate-800 mr-2">{value}</div>
-          <div className={`text-sm font-semibold text-white px-1.5 rounded-full ${badgeClass}`}>{badgeText}</div>
+          <BadgePill badgeClass={badgeClass}>{badgeText}</BadgePill>
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}
