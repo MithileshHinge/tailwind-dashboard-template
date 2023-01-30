@@ -45,7 +45,7 @@ function Dashboard() {
               <DashboardAvatars />
 
               {/* Right: Actions */}
-              <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
+              <div className="grid grid-flow-col auto-cols-max justify-end gap-2">
                 {/* Filter button */}
                 <FilterButton />
                 {/* Datepicker built with flatpickr */}
