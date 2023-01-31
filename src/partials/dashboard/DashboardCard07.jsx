@@ -35,7 +35,7 @@ function DashboardCard07() {
             {/* Table body */}
             <tbody className="text-sm font-medium divide-y divide-slate-100">
               {tableData07.body.map((row) => (
-                <tr>
+                <tr key={row.id}>
                   <td className="p-2">
                     <div className="flex items-center">
                       <img className="shrink-0 mr-3" src={row.source.logo} />

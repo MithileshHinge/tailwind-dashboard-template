@@ -1,6 +1,6 @@
 const tableData07 = {
-  headers: ['Source', 'Visitors', 'Revenues', 'Sales', 'Conversion'],
   body: [{
+    id: 1,
     source: {
       logo: '/src/images/channel-logo-01.svg',
       name: 'Github.com',
@@ -10,6 +10,7 @@ const tableData07 = {
     sales: '267',
     conversion: '4.7%',
   }, {
+    id: 2,
     source: {
       logo: '/src/images/channel-logo-02.svg',
       name: 'Twitter',
@@ -19,6 +20,7 @@ const tableData07 = {
     sales: '249',
     conversion: '4.4%',
   }, {
+    id: 3,
     source: {
       logo: '/src/images/channel-logo-03.svg',
       name: 'Google (organic)',
@@ -28,6 +30,7 @@ const tableData07 = {
     sales: '224',
     conversion: '4.2%',
   }, {
+    id: 4,
     source: {
       logo: '/src/images/channel-logo-04.svg',
       name: 'Vimeo.com',
@@ -37,6 +40,7 @@ const tableData07 = {
     sales: '220',
     conversion: '4.2%',
   }, {
+    id: 5,
     source: {
       logo: '/src/images/channel-logo-05.svg',
       name: 'Indiehackers.com',
