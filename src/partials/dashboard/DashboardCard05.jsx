@@ -3,6 +3,7 @@ import RealtimeChart from '../../charts/RealtimeChart';
 
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../utils/Utils';
+import DashboardCardGeneric from './DashboardCardGeneric';
 
 function DashboardCard05() {
 
@@ -82,14 +83,11 @@ function DashboardCard05() {
   };
 
   return (
-    <div className="flex flex-col col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
-      <header className="px-5 py-4 border-b border-slate-100 flex items-center">
-        <h2 className="font-semibold text-slate-800">AVG Order Value</h2>
-      </header>
+    <DashboardCardGeneric cardClassName="flex flex-col col-span-6" title="AVG Order Value">
       {/* Chart built with Chart.js 3 */}
       {/* Change the height attribute to adjust the chart height */}
       <RealtimeChart data={chartData} width={595} height={248} />
-    </div>
+    </DashboardCardGeneric>
   );
 }
 

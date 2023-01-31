@@ -1,12 +1,10 @@
 import React from 'react';
 import billingData13 from '../../data/BillingData13';
+import DashboardCardGeneric from './DashboardCardGeneric';
 
 function DashboardCard13() {
   return (
-    <div className="col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
-      <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Income/Expenses</h2>
-      </header>
+    <DashboardCardGeneric cardClassName="col-span-6" title="Income/Expenses">
       <div className="p-3">
 
         {/* Card content */}
@@ -55,7 +53,7 @@ function DashboardCard13() {
           </div>
         ))}
       </div>
-    </div>
+    </DashboardCardGeneric>
   );
 }
 

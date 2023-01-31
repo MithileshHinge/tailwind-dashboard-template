@@ -1,5 +1,6 @@
 import React from 'react';
 import activityData12 from '../../data/ActivityData12';
+import DashboardCardGeneric from './DashboardCardGeneric';
 
 function getActivityIcon(activity) {
   switch (activity.type) {
@@ -77,10 +78,7 @@ function getActivityText(activity) {
 
 function DashboardCard12() {
   return (
-    <div className="col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
-      <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Recent Activity</h2>
-      </header>
+    <DashboardCardGeneric cardClassName="col-span-6" title="Recent Activity">
       <div className="p-3">
 
         {/* Card content */}
@@ -105,7 +103,7 @@ function DashboardCard12() {
           </div>
         ))}
       </div>
-    </div>
+    </DashboardCardGeneric>
   );
 }
 

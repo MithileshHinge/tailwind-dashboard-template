@@ -1,12 +1,10 @@
 import React from 'react';
 import tableData10 from '../../data/TableData10';
+import DashboardCardGeneric from './DashboardCardGeneric';
 
 function DashboardCard10() {
   return (
-    <div className="col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
-      <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Customers</h2>
-      </header>
+    <DashboardCardGeneric cardClassName="col-span-6" title="Customers">
       <div className="p-3">
 
         {/* Table */}
@@ -62,7 +60,7 @@ function DashboardCard10() {
         </div>
 
       </div>
-    </div>
+    </DashboardCardGeneric>
   );
 }
 
