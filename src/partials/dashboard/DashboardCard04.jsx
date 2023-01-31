@@ -1,6 +1,6 @@
 import React from 'react';
 import BarChart from '../../charts/BarChart01';
-import chartData04 from '../../charts/data/ChartData04';
+import chartData04 from '../../data/ChartData04';
 
 function DashboardCard04() {
   return (

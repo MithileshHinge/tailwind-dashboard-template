@@ -1,4 +1,4 @@
-import { tailwindConfig, hexToRGB } from '../../utils/Utils';
+import { tailwindConfig, hexToRGB } from '../utils/Utils';
 
 const chartData02 = {
   labels: [

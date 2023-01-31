@@ -1,6 +1,6 @@
 import React from 'react';
 import DoughnutChart from '../../charts/DoughnutChart';
-import chartData06 from '../../charts/data/ChartData06';
+import chartData06 from '../../data/ChartData06';
 
 function DashboardCard06() {
   return (

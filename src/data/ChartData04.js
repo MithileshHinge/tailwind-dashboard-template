@@ -1,4 +1,4 @@
-import { tailwindConfig } from '../../utils/Utils';
+import { tailwindConfig } from '../utils/Utils';
 
 const chartData04 = {
   labels: [

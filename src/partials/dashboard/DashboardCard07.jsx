@@ -1,5 +1,5 @@
 import React from 'react';
-import card07Data from '../../data/Card07Data';
+import tableData07 from '../../data/TableData07';
 
 function DashboardCard07() {
   return (
@@ -34,7 +34,7 @@ function DashboardCard07() {
             </thead>
             {/* Table body */}
             <tbody className="text-sm font-medium divide-y divide-slate-100">
-              {card07Data.body.map((row) => (
+              {tableData07.body.map((row) => (
                 <tr>
                   <td className="p-2">
                     <div className="flex items-center">

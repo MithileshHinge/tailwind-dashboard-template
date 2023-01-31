@@ -1,5 +1,5 @@
 // Import utilities
-import { tailwindConfig } from '../../utils/Utils';
+import { tailwindConfig } from '../utils/Utils';
 
 const chartData06 = {
   labels: ['United States', 'Italy', 'Other'],

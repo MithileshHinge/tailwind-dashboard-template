@@ -1,4 +1,4 @@
-const card07Data = {
+const tableData07 = {
   headers: ['Source', 'Visitors', 'Revenues', 'Sales', 'Conversion'],
   body: [{
     source: {
@@ -48,4 +48,4 @@ const card07Data = {
   }]
 }
 
-export default card07Data;
+export default tableData07;
