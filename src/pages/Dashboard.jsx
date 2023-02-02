@@ -24,7 +24,7 @@ import DashboardCard13 from '../partials/dashboard/DashboardCard13';
 
 function Dashboard() {
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex overflow-hidden">
 
       {/* Sidebar */}
       <Sidebar/>
