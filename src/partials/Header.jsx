@@ -32,15 +32,15 @@ function Header() {
         <hr className="w-px h-6 bg-slate-200 mx-3" />
         
         {/* UserMenu */}
-        <button className="inline-flex justify-center items-center group">
+        <div className="inline-flex justify-center items-center group">
           <img className="w-8 h-8 rounded-full" src={UserAvatar} width="32" height="32"/>
-          <div className="flex items-center truncate">
-            <span className="truncate ml-2 text-sm font-medium">Acme Inc.</span>
+          <div className="flex items-center">
+            <span className="ml-2 text-sm font-medium">Acme Inc.</span>
             <svg className="w-3 h-3 shrink-0 ml-1 fill-current text-slate-400" viewBox="0 0 12 12">
               <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
             </svg>
           </div>
-        </button>
+        </div>
       </div>
     </header>
   );
