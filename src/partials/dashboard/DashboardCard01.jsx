@@ -6,7 +6,7 @@ import { Menu } from '@headlessui/react';
 
 function DashboardCard01() {
   return (
-    <div className="flex flex-col col-span-4 bg-white shadow-lg rounded-sm border border-slate-200">
+    <div className="w-4/12 flex flex-col bg-white shadow-lg rounded-sm border border-slate-200">
       <div className="px-5 pt-5">
         <header className="flex justify-between items-start mb-2">
           {/* Icon */}

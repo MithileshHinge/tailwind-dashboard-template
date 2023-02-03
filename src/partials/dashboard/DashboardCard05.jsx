@@ -3,7 +3,7 @@ import chart from '../../images/charts/chart05.svg';
 
 function DashboardCard05() {
   return (
-    <div className="flex flex-col col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
+    <div className="w-6/12 flex flex-col bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
         <h2 className="font-semibold text-slate-800">AVG Order Value</h2>
       </header>

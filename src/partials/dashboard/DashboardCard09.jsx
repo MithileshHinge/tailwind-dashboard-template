@@ -4,7 +4,7 @@ import chart from '../../images/charts/chart09.svg';
 
 function DashboardCard09() {
   return (
-    <div className="flex flex-col col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
+    <div className="w-6/12 flex flex-col bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center">
         <h2 className="font-semibold text-slate-800">Sales VS Refunds</h2>
         <Popover className="relative ml-2 flex items-center">

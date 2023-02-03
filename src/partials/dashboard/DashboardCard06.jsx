@@ -3,7 +3,7 @@ import chart from '../../images/charts/chart06.svg';
 
 function DashboardCard06() {
   return (
-    <div className="flex flex-col col-span-4 bg-white shadow-lg rounded-sm border border-slate-200">
+    <div className="w-4/12 flex flex-col bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
         <h2 className="font-semibold text-slate-800">Top Countries</h2>
       </header>
