@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import EditMenu from '../EditMenu';
+import { Menu } from '@headlessui/react';
 import Icon from '../../images/icon-02.svg';
 import chart from '../../images/charts/chart02.svg';
 
@@ -12,17 +12,28 @@ function DashboardCard02() {
           {/* Icon */}
           <img src={Icon} width="32" height="32"/>
           {/* Menu button */}
-          <EditMenu className="relative inline-flex">
-            <li>
-              <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 1</Link>
-            </li>
-            <li>
-              <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 2</Link>
-            </li>
-            <li>
-              <Link className="font-medium text-sm text-rose-500 hover:text-rose-600 flex py-1 px-3" to="#0">Remove</Link>
-            </li>
-          </EditMenu>
+          <div className="relative inline-flex">
+            <Menu>
+              <Menu.Button className="text-slate-400 hover:text-slate-500">
+              <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32">
+                <circle cx="16" cy="16" r="2" />
+                <circle cx="10" cy="16" r="2" />
+                <circle cx="22" cy="16" r="2" />
+              </svg>
+              </Menu.Button>
+              <Menu.Items className="origin-top-right z-10 absolute top-full right-0 min-w-36 bg-white border border-slate-200 py-1.5 rounded shadow-lg overflow-hidden mt-1">
+                <Menu.Item>
+                  <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 1</Link>
+                </Menu.Item>
+                <Menu.Item>
+                  <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 2</Link>
+                </Menu.Item>
+                <Menu.Item>
+                  <Link className="font-medium text-sm text-rose-500 hover:text-rose-600 flex py-1 px-3" to="#0">Remove</Link>
+                </Menu.Item>
+              </Menu.Items>
+            </Menu>
+          </div>
         </header>
         <h2 className="text-lg font-semibold text-slate-800 mb-2">Acme Advanced</h2>
         <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Sales</div>
